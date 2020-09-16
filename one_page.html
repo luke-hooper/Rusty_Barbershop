@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Rusty barbers</title>
+  </head>
+  <body>
+    <div id="nav-bar" class="nav-bar">
+      <a class="nav-item" href="#">Home</a>
+      <a href="#about" class="nav-item">About us</a>
+      <div class="logo">
+        <a id="logo">
+          <img class="logo" src="Resources/Logo_white.png" />
+        </a>
+      </div>
+      <a class="nav-item" href="#bookings">Bookings</a>
+      <a class="nav-item" href="#contact">Contact us</a>
+    </div>
+
+    <div id="menuIcon" class="mobile-button">
+      <div id="iconContainer" class="container">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+    <div id="social" class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </div>
+
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border"><a href="#bookings">Book now</a> </span>
+      </div>
+    </div>
+
+    <section id="about" class="section section-dark">
+      <h2>About us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem porro
+        velit aliquam sequi obcaecati distinctio repudiandae incidunt nesciunt
+        illo explicabo tempore dolorum in similique nulla reprehenderit unde,
+        vero optio! Consequuntur delectus expedita consectetur modi explicabo
+        minima eveniet id sint perferendis quas aspernatur cum, error ipsa eius
+        incidunt voluptatibus provident praesentium. Mollitia nisi unde
+        inventore! Odit blanditiis velit, consequatur optio dolores rerum et
+        corporis eaque! Asperiores ipsam voluptate corporis tempora ullam
+        blanditiis magnam praesentium dolore, fuga harum similique sit
+        reiciendis, facilis voluptatibus quae eius. Magni totam odit voluptatum
+        tempore cum exercitationem nostrum quaerat natus nulla autem impedit
+        beatae itaque, aperiam aliquam!
+      </p>
+    </section>
+
+    <div class="pimg2">
+      <div class="ptext">
+        <span class="border"><a href="#bookings">Book now</a></span>
+        
+      </div>
+    </div>
+
+    <section id="locations" class="section section-dark">
+      <h2>Locations</h2>
+      <div id="locations-container">
+          
+        <div class="gmap1">
+            <div id="map"></div>
+                <p>
+                    Our flagship barber shop is located in the state of Nevada, in the
+                    up and coming neighbourhood of the secret military base
+                    <span>Area 51</span>. You can't miss it just take a left after you
+                    see the house of Flip-Florp the Alien.
+                </p>
+        </div>
+        <div class="gmap2">
+            <div id="map2"></div>
+            <p>
+                Our newest barber shop is located somewhere in the
+                <span>Bermuda Triangle</span>. With all the mystery surrounding
+                the Bermuda Triangle you'll have to have your whits about you to
+                find us in this geological anomaly.
+            </p>
+        </div> 
+    </div>
+    </section>
+    <div class="pimg3">
+      <div class="ptext">
+        <span class="border"><a href="#bookings">Book now</a></span>
+      </div>
+    </div>
+
+    <section id="barbers" class="section section-dark">
+      <h2>Our barbers</h2>
+      <div class="barber-flex-container">
+        <div id="barber1" class="container">
+          <img
+            src="./Resources/barber_6.jpg"
+            alt="Avatar"
+            class="image"
+            width="400px"
+            height="600px"
+          />
+          <div class="overlay">
+            <div class="name text">Sally</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad a
+              nostrum soluta dolores eligendi magni et ab modi necessitatibus
+              officia?
+            </div>
+          </div>
+        </div>
+
+        <div id="barber2" class="container">
+          <img
+            src="./Resources/barber_2.jpg"
+            alt="Avatar"
+            class="image"
+            width="400px"
+            height="600px"
+          />
+          <div class="overlay">
+            <div class="name text">Mike</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              error maiores alias voluptate vitae aperiam quod temporibus nihil,
+              possimus vel atque quaerat autem!
+            </div>
+          </div>
+        </div>
+
+        <div id="barber3" class="container">
+          <img
+            src="./Resources/barber_4.jpg"
+            alt="Avatar"
+            class="image"
+            width="400px"
+            height="600px"
+          />
+          <div class="overlay">
+            <div class="name text">George</div>
+            <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              dolorum earum, unde quisquam cupiditate autem nostrum illum eius.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="pimg4">
+      <div class="ptext">
+        <span class="border"><a href="#bookings">Book now</a></span>
+      </div>
+    </div>
+
+    <section id="bookings" class="section section-dark">
+      <h2>Bookings</h2>
+      <div class="bookings-container">
+        <form class="bookings">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First name:</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="fname" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last name:</label>  
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lname" />  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="tphone">Telephone number:</label> 
+                </div>
+                <div class="col-75">
+                    <input type="tel" id="tphone" name="tphone" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email adress:</label>    
+                </div>
+                <div class="col-75">
+                    <input type="email" id="email" name="email" />    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <p>Who do you want to cut your hair:</p>
+                </div>
+                <div id="radio" class="col-75">
+                        <input type="radio" id="sally" name="barber" value="sally" />
+                        <label for="sally">Sally</label>
+                        <input type="radio" id="mike" name="barber" value="mike" />
+                        <label for="mike">Mike</label>
+                        <input type="radio" id="george" name="barber" value="george" />
+                        <label for="george">George</label>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <p>What service would you like to book:</p>
+                </div>
+                <div class="col-75">
+                    <select id="service" name="service">
+                        <option value="gents">Gents hair cut £15</option>
+                        <option value="hair-beard">Gents hair cut and beard trime £25</option>
+                        <option value="premium">Premium Gents hair cut, with beard trim and facial £35</option>
+                        <option value="kids">Childrens hair cut £7</options>
+                        <option value="studnet-senior">Student and Seniors hair cut £10</options>
+                    </select> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="date">Appointment time: </label>
+                </div>
+                <div class="col-75">
+                    <input type="date" id="date" name="date" />  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                        <p>Any notes you'd like to leave your barber:</p>
+                </div>
+                <div class="col-75">
+                    <textarea name="message" rows="10" cols="70"></textarea> 
+                </div>
+            </div>        
+          <div class="row"><input type="submit" value="Submit"></div>
+          
+        </form>
+      </div>
+    </section>
+
+    <div class="pimg5">
+        <div class="ptext">
+            <span class="border"><a href="#bookings">Book now</a></span>
+        </div>
+    </div>
+    <section id="contact" class="section section-dark">
+        <h2>Contact us</h2>
+        <div class="contact-container">
+            <div class="shop1">
+                <h4>Area 51 shop</h4>
+                <p><span>Number:</span> 07777626555</p>
+                <p><span>Address:</span> 102 Alien Street, Area 51, Nevada</p>
+            </div>
+
+            <div class="shop2">
+                    <h4>Bermuda Triangle shop</h4>
+                    <p><span>Number:</span> 07880626355</p>
+                    <p><span>Address:</span> 101 Mystery Road, Bermuda Triangle</p>
+                </div>
+        </div>
+    </section>
+    
+    <div class="footer">
+      <p class="fixed footer">&copy; 2020 Rusty Barber Co.</p>
+    </div>
+    
+  </body>
+
+  <script src="script.js"></script>
+  <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAnz_wafS9Y47hf4HmyQ7UxDwTKcI1xaMo&callback=initMap"
+    ></script>
+</html>

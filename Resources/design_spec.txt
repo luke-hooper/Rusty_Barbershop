@@ -1,0 +1,21 @@
+Summary: 
+Designing a barbershop website.
+
+Website must include pages for:
+1. Home page
+2. About us
+    Some bullshit origin story
+3. Locations 
+    2 locations of the barber stores
+4. Bookings (need form lay out but no backend)
+5. Contact us
+
+
+Should also include:
+profiles for the barbers including Mr Patel
+Social media links 
+
+Needs:
+consitent colour/ design scheme
+
+
